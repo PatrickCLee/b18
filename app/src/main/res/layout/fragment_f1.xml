@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".F1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Page 1"
+        android:textSize="36sp"
+        />
+    <Button
+        android:id="@+id/page1_test1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="test"
+        />
+    <Button
+        android:id="@+id/page1_test2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="test2"
+        />
+    <TextView
+        android:id="@+id/page1_lottery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        />
+</LinearLayout>
